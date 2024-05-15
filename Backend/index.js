@@ -13,11 +13,10 @@ app.use(express.json());
 
 
 app.get("/", (req,res)=>{
-    res.send("hello world")
+    res.send("hello world this is chnaged by anshu")
 })
 
-app.listen("3000", (req,res)=>{
+app.listen("3001", (req,res)=>{
     console.log("server is running on port 3000")
 })
-
 
