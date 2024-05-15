@@ -13,7 +13,11 @@ app.use(express.json());
 
 
 app.get("/", (req,res)=>{
+<<<<<<< HEAD
     res.send("hello world this is chnaged by anshu")
+=======
+    res.send("hello world we gonna rock it")
+>>>>>>> refs/remotes/origin/main
 })
 
 app.listen("3001", (req,res)=>{
