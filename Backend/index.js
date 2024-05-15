@@ -13,7 +13,7 @@ app.use(express.json());
 
 
 app.get("/", (req,res)=>{
-    res.send("hello world")
+    res.send("hello world we gonna rock it")
 })
 
 app.listen("3000", (req,res)=>{
